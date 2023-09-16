@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <div>
       <div id="contents">
-        <div id="adbox">
+        <div id="homebox">
           <div className="clearfix">
             <img src={HomeImage} className="h-[382px] w-[594px]" alt="Img" />
             <div className="detail">
