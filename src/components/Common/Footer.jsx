@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -34,9 +35,9 @@ const Footer = () => {
         <div className="section">
           <h4>SEND US A MESSAGE</h4>
           <p>Feel free to contact us.</p>
-          <a href="contact.html" className="subscribe">
+          <Link to={'/contact-us'} className="subscribe">
             Click to send us an email
-          </a>
+          </Link>
         </div>
       </div>
       <div id="footnote">
